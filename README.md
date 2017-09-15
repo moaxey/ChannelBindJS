@@ -24,9 +24,9 @@ On each field:
 This object depends on the channels.WebSocketBinding and should be initialised
 with the binding url of the demultiplexer set up in channels routing.
 
-> <script src="/static/channels/js/websocketbridge.js"></script>
-> <script src="/static/mm/js/activate.js"</script>
-> <script>Activation.init('/binding/');</script>
+> <script src="/static/channels/js/websocketbridge.js"></script> 
+> <script src="/static/channelbindjs/activate.js"</script> 
+> <script>Activation.init('/binding/');</script> 
 
 
 Links
