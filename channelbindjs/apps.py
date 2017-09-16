@@ -1,6 +1,7 @@
 from django.apps import AppConfig
 
+
 class ChannelBindJSConfig(AppConfig):
 
-    name= "channelbindjs"
+    name = "channelbindjs"
     verbose_name = "ChannelBindJS"
