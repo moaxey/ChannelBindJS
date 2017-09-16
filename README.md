@@ -24,10 +24,26 @@ On each field:
 This object depends on the channels.WebSocketBinding and should be initialised
 with the binding url of the demultiplexer set up in channels routing.
 
-> <script src="/static/channels/js/websocketbridge.js"></script> 
-> <script src="/static/channelbindjs/activate.js"</script> 
-> <script>Activation.init('/binding/');</script> 
+Include the script:
 
+```html
+…
+<script src="/static/channels/js/websocketbridge.js"></script> 
+<script src="/static/channelbindjs/activate.js"</script> 
+<script>Activation.init('/binding/');</script> 
+</body> 
+```
+
+And to make a model receive live updates and have inline editing:
+
+```html
+<div class="live" data-model="appname.modelname" data-id="1" data-stream="demultiplexer-stream">
+  <header>
+    <div class="field editable" data-field="title">Rendered content of title field</div>
+  </header>
+  <div class="field editable" data-field="description">Rendered description</div>
+</div>
+```
 
 Links
 -----
