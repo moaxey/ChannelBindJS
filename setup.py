@@ -15,6 +15,7 @@ setup(
     author_email='like@mathewoak.es',
     description=('Activate html document elements for inline editing and '
                  'live updating from a django-channels backend.'),
+    url='https://github.com/moaxey/ChannelBindJS',
     license='BSD',
     long_description=README,
     install_requires=[
