@@ -45,6 +45,11 @@ And to make a model receive live updates and have inline editing:
 </div>
 ```
 
+Installation
+------------
+
+> pip install channelbindjs
+
 Links
 -----
 
